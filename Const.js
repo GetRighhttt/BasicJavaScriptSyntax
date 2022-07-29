@@ -18,3 +18,8 @@ body = function() {
 
 // declaring a constant makes something immutable
 const special = "Special" // cannot be changed
+
+// even for functions we use const
+const hello = function() {
+    console.log("Hello")
+}
